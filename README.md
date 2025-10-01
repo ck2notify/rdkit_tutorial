@@ -12,6 +12,8 @@ either a SMILES query or an SDF query.  Also chemical structures can
 be minimized and conformations can be generated.  For convenience
 one can also create image file in PNG format of structures.  
 
+There are also other scripts for file conversion and sdfile splitting
+(sdsubset.py).
 
 Hope you may find it useful.
 
