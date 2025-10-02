@@ -1,22 +1,11 @@
-The script library_process_v2.py can read a chemical library 
-(commercial or internal) containing structures in SDF format.
-It can convert structures into SMILES format, plot properties
-like molecular weight, cLogP, TPSA, H-Bond donor, H-Bond acceptor,
-and Number of rotatable bonds (see prop.png file).  These properties 
-are also written along with structures (SMILES) in a csv file (test.csv)
-so that Datawarrior program can be used to filter structures.  A sample
-library of (test.sdf) 24 compounds used as an example.
+  discoveryTools.py script can do: 
+                          1) Small molecule library analysis
+                          2) Minimize one or more structure (small molecule)
+                          3) Generate given number of conformers of small molecules
+                          4) Substructure search of a fragment from a library
+  Please download lib_analysis.py, minimize.py, confgen.py and substr_search.py.
+  You need to have python3 and rdkit installed on your device for these scripts to work.  
+  This script was tested using python3 (3.13.5), numpy (2.1.3), 
+  matplotlib (3.10.0), pandas (2.2.3) and rdkit (2025.03.6) 
 
-In addition substructure search can be performed on a library using 
-either a SMILES query or an SDF query.  Also chemical structures can 
-be minimized and conformations can be generated.  For convenience
-one can also create image file in PNG format of structures.  
-
-There are also other scripts for file conversion and sdfile splitting
-(sdsubset.py).
-
-Hope you may find it useful.
-
-CK
-Oct 01, 2025
-ck2notify@gmail.com
+  CK, 10/02/2025
