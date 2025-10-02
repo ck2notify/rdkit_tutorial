@@ -6,6 +6,7 @@ from rdkit.Chem import AllChem
 def minim_str(structure):
     strH = Chem.AddHs(structure)
     AllChem.EmbedMolecule(strH)
+    AllChem.MMFFOptimizeMolecule(strH)
     return strH
 
 def main():
